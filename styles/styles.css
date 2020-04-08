@@ -81,3 +81,56 @@ form{
     border: 1px solid #9c7bb2;
 
   }
+
+.recent{
+    margin: 0px auto;
+ text-align:center;
+
+}
+
+.recent img{
+  width: 350px;
+  height: 350px;
+  padding: 25px;
+  object-fit: cover;
+}
+
+.recent a{
+ color: #1c1c1c;
+ text-decoration: none;
+ padding: 25px;
+ font-size: 25px;
+ 
+}
+
+.column1{
+  float:left;
+  width:49%
+}
+
+.column2{
+  float:right;
+  width:49%
+}
+
+.about{
+  font-size: 2.5em;
+  margin-top: 170px;
+  text-align: center;
+  font-family: Didot;
+}
+
+.paragraph{
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+
+.paragraph h3{
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.paragraph p{
+  font-size: 1.3em;
+}
