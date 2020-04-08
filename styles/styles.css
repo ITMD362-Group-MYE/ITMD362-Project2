@@ -2,16 +2,23 @@
 	width: 100%
 }
 nav{
-  padding: 42px 84px;	
   background-image: linear-gradient(white, #2B6CA3);  
+  text-align: center;
+  box-shadow: 1px 1px, #d6d6d6;
 }
 nav a {
+  display:inline-block;
+  padding: 28px 84px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;  
   font-size:16px;
   font-family: Arial, Helvetica, sans-serif;
   color:white;
-  display:inline-block;
   text-align:center;
   text-decoration: none;
+}
+nav a:hover{
+  background-image: linear-gradient(#d6d6d6, #1b4569);
 }
 nav li{
   display:inline;
