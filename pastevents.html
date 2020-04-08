@@ -51,7 +51,7 @@
           animation: google.maps.Animation.DROP
         });
         var location2info = new google.maps.InfoWindow({content: '<p>2nd International Symposium in Berlin, Germany, August 1990 (ISU)</p>'});
-        location2.addListener('mouseover', function(){location2info.open(map,location1);});
+        location2.addListener('mouseover', function(){location2info.open(map,location2);});
         location2.addListener('mouseout', function(){location2info.close();});
         var location3 = new google.maps.Marker(
         {
@@ -60,8 +60,17 @@
           animation: google.maps.Animation.DROP
         });
         var location3info = new google.maps.InfoWindow({content: '<p>3rd International Symposium in St. Catherine’s, Canada, August 1991 (ISU)</p>'});
-        location3.addListener('mouseover', function(){location3info.open(map,location1);});
+        location3.addListener('mouseover', function(){location3info.open(map,location3);});
         location3.addListener('mouseout', function(){location3info.close();});
+        var location4 = new google.maps.Marker(
+        {
+          position: {lat: 51.507351, lng: -0.127758}, 
+          map: map, 
+          animation: google.maps.Animation.DROP
+        });
+        var location4info = new google.maps.InfoWindow({content: '<p>4th International Symposium in London, May 1992 (ISU)</p>'});
+        location4.addListener('mouseover', function(){location4info.open(map,location4);});
+        location4.addListener('mouseout', function(){location4info.close();});
       }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-iKURDImKjPzto7zm3e22a8Iks41WBEs&callback=initMap"
