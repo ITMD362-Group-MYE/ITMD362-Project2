@@ -6,7 +6,6 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
-
     <img src="images/banner.png" alt="ISUD Banner" id=banner>
     <nav>
       <ul>
@@ -17,6 +16,55 @@
     </nav>
   </head>
   <body>
-  	
+  	<style>
+      #map {
+        height: 100%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <div id="map"></div>  
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), 
+        {
+          center: {lat: 0, lng: 0},
+          zoom: 2,
+          mapTypeId:google.maps.MapTypeId.ROADMAP
+        });
+        var location1 = new google.maps.Marker(
+        {
+          position: {lat: 52.229675, lng: 21.012230}, 
+          map: map, 
+          animation: google.maps.Animation.DROP
+        });
+        var location1info = new google.maps.InfoWindow({content: '<p>1st International Symposium in Warsaw, Poland, November 1989 (ISU)</p>'});
+        location1.addListener('mouseover', function(){location1info.open(map,location1);});
+        location1.addListener('mouseout', function(){location1info.close();});
+        var location2 = new google.maps.Marker(
+        {
+          position: {lat: 52.520008, lng: 13.404954}, 
+          map: map, 
+          animation: google.maps.Animation.DROP
+        });
+        var location2info = new google.maps.InfoWindow({content: '<p>2nd International Symposium in Berlin, Germany, August 1990 (ISU)</p>'});
+        location2.addListener('mouseover', function(){location2info.open(map,location1);});
+        location2.addListener('mouseout', function(){location2info.close();});
+        var location3 = new google.maps.Marker(
+        {
+          position: {lat: 45.290340, lng: -66.041420}, 
+          map: map, 
+          animation: google.maps.Animation.DROP
+        });
+        var location3info = new google.maps.InfoWindow({content: '<p>3rd International Symposium in St. Catherine’s, Canada, August 1991 (ISU)</p>'});
+        location3.addListener('mouseover', function(){location3info.open(map,location1);});
+        location3.addListener('mouseout', function(){location3info.close();});
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-iKURDImKjPzto7zm3e22a8Iks41WBEs&callback=initMap"
+    async defer></script>
   </body>
 </html>
