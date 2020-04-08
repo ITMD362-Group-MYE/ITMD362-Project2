@@ -22,7 +22,7 @@ h1{
 nav{
   background-image: linear-gradient(white, #2B6CA3);  
   text-align: center;
-  box-shadow: 1px 1px, #d6d6d6;
+  box-shadow: 1px 1px #d6d6d6;
 }
 nav a {
   display:inline-block;
