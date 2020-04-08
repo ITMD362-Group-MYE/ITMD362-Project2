@@ -8,13 +8,13 @@ nav{
 }
 nav a {
   display:inline-block;
-  padding: 28px 84px;
-  border-left: 1px solid white;
-  border-right: 1px solid white;  
-  font-size:16px;
+  width: 33%;  
+  padding-top: 28px;
+  padding-bottom: 28px;
+  font-size:28px;
+  font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   color:white;
-  text-align:center;
   text-decoration: none;
 }
 nav a:hover{
