@@ -42,3 +42,42 @@ nav li{
   display:inline;
   text-align:center;
 }
+
+label{
+    display: block;
+    margin: auto;
+    color: #444469;
+    margin-bottom: 0.2em;
+    font-size: 1.3em;
+  }
+input{
+    display: block;
+    margin: auto;
+    margin-bottom: 1.1em;
+    width: 75%;
+    font-size: 1.3em;
+    text-align: center;
+    color: #2b2b2b;
+    box-shadow: 3px 3px #9c7bb2;
+  }
+input[type="submit"]{
+    width: 33%;
+    box-shadow: 5px 5px 3px #447dad;
+  }
+input[type="text"]::placeholder{
+    text-align: center;
+  }
+input[type="password"]::placeholder{
+    text-align: center;
+  }
+input::placeholder{
+    color: #b7cde0;
+  }
+form{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 12px 12px 6px #447dad;
+    border: 1px solid #9c7bb2;
+
+  }
