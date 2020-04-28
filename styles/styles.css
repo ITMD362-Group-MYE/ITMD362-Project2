@@ -123,9 +123,8 @@ form{
 
 .recent img{
   width: 80%;
-  height: auto;
+  height: 80%;
   padding: 25px;
-  object-fit: cover;
 }
 
 .recent a{
@@ -143,7 +142,7 @@ form{
 }
 
 .about img{
-  width: 80%;
+  width: 50%;
   height: auto;
 }
 
