@@ -28,26 +28,17 @@
   margin: 0;
   padding: 0;
 }
-h1{
-  color: #2B6CA3;
-  font-family: 'Belgrano', serif;
-  margin-left: 20px;	
-}
 nav{
   background-image: linear-gradient(white, #2B6CA3);  
   text-align: center;
   box-shadow: 1px 1px #d6d6d6;
 }
 nav a {
-  display:inline-block;
-  width: 33%;  
-  padding-top: 16px;
-  padding-bottom: 16px;
-  font-size:28px;
-  font-weight: 700;
   font-family: 'Lato', sans-serif;
   color:white;
   text-decoration: none;
+  display:inline-block;
+  width: 33%;    
 }
 nav a:hover{
   background-image: linear-gradient(#d6d6d6, #1b4569);
@@ -56,7 +47,25 @@ nav li{
   display:inline;
   text-align:center;
 }
-
+@media only screen and (min-width: 600px) {
+  nav a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+@media only screen and (min-width: 768px) {
+  nav a {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 28px;
+    font-weight: 700;
+}
+h1{
+  color: #2B6CA3;
+  font-family: 'Belgrano', serif;
+  margin-left: 20px;  
+}
 label{
     display: block;
     margin: auto;
@@ -95,7 +104,6 @@ form{
     border: 1px solid #9c7bb2;
 
   }
-
 .recent{
     margin: 0px auto;
  text-align:center;
