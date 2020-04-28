@@ -105,14 +105,17 @@ form{
 
   }
 .recent{
-    margin: 0px auto;
- text-align:center;
+    text-align: center;
+}
 
+.column{
+    display: inline-block;
+    margin: 5px;
 }
 
 .recent img{
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   padding: 25px;
   object-fit: cover;
 }
@@ -121,18 +124,7 @@ form{
  color: #1c1c1c;
  text-decoration: none;
  padding: 25px;
- font-size: 25px;
- 
-}
-
-.column1{
-  float:left;
-  width:49%
-}
-
-.column2{
-  float:right;
-  width:49%
+ font-size: 25px; 
 }
 
 .about{
@@ -143,7 +135,8 @@ form{
 }
 
 .about img{
-  width: 600px;
+  width: 80%;
+  height: auto;
 }
 
 .paragraph{
