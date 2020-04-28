@@ -123,10 +123,9 @@ form{
 
 .recent img{
   max-width:500px;
-  height: 80%;
+  height: auto;
   padding: 25px;
 }
-
 .recent a{
  color: #1c1c1c;
  text-decoration: none;
