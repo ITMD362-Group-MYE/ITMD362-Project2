@@ -144,36 +144,13 @@ form{
 }
 
 #footerTag{
-  
     text-align: center;
     display: inline;
     position: relative;
+    color: white;
+    }
+
+.logo {
+    height: 50px;
+    width: 50px;
 }
-
-.sns {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-
-  .sns:hover {
-    opacity: 0.8;
-}
-  .facebook {
-    background: #3B5998;
-    color: white;
-  }
-
-  .google {
-    background: #dd4b39;
-    color: white;
-  }
-  
-  .linkedin {
-    background: #007bb5;
-    color: white;
-  }
