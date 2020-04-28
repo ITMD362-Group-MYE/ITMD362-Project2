@@ -127,7 +127,8 @@ form{
 }
 
 .about img{
-  width: 600px;
+  width: 80%;
+  height: auto;
 }
 
 .paragraph{
