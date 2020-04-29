@@ -133,34 +133,41 @@ form{
 }
 
 .recent img{
-  max-width:80%;
+  width: 80%;
+  max-width: 500px;
   height: auto;
-  padding: 25px;
+  padding: 10px;
 }
+
 .recent a{
  color: #1c1c1c;
  text-decoration: none;
  padding: 18px;
- font-size: 1.5em;
+}
+
+.recent h3{
+    font-size: 2em;
 }
 
 .about{
   font-size: 2.5em;
-  margin-top: 170px;
+  margin-top: 10px;
+  margin-bottom: 70px;
   text-align: center;
   font-family: Didot;
 }
 
 .about img{
-  width: 50%;
+  width: 70%;
   height: auto;
+  text-align: center;
+
 }
 
 .paragraph{
    margin-left: 50px;
    margin-right: 50px;
 }
-
 
 .paragraph h3{
   font-size: 1.5em;
