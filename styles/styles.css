@@ -152,16 +152,19 @@ form{
   padding: 10px;
 }
 
-.recent a{  
+.recent a{
+  text-decoration: none;
+}
+
+.recent h3{  
   padding:5mm;
   font-size: 2em;
   background: #1c1c1c;
   color: white;
-  text-decoration: none;
   font-family: 'Lato', sans-serif;
 }
 
-.recent a:hover{
+.recent h3:hover{
   background: #c22f2f;
   color: white;
   border: 1px solid black
