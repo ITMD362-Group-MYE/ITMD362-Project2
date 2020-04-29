@@ -132,10 +132,12 @@ form{
 }
 
 .recent img{
-  max-width:80%;
+  width: 80%;
+  max-width: 500px;
   height: auto;
-  padding: 25px;
+  padding: 10px;
 }
+
 .recent a{
  color: #1c1c1c;
  text-decoration: none;
