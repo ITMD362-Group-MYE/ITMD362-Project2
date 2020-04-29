@@ -155,11 +155,19 @@ form{
 .recent a{
  color: #1c1c1c;
  text-decoration: none;
- padding: 18px;
+ padding: 5px;
 }
 
 .recent h3{
-    font-size: 2em;
+  padding:5mm;
+  font-size: 2em;
+  font-family: 'Lato', sans-serif;
+}
+
+.recent h3:hover{
+  background: #1c1c1c;
+  color: white;
+  border: 1px solid black
 }
 
 .about{
